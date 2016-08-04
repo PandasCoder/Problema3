@@ -1,0 +1,233 @@
+body{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+/**/
+header{
+    height: 50%;
+}
+header img{
+    width: 100%;
+    height: 60px;
+}
+header h1{
+    color: rgb(213, 213, 213);
+    font-size: .9em;
+    padding: 1.5em 0 2% 3em;
+}
+header section{
+    display: inline-block;
+}
+.text{
+    vertical-align: text-top;
+}
+.search{
+    display: inline-block;
+    border: 1px solid gray;
+    margin-top: .2em;
+    margin-left: 8em;
+}
+.search i{
+    color: lightgray;
+    padding-right: .5em;
+}
+.search input{
+    border: none;
+    padding: 1em 1em;
+
+}
+.search input:focus{
+    outline: none;
+}
+/*Banner*/
+.all .age{
+    color: rgb(105, 179, 127);
+    border: 2px solid rgb(105, 179, 127);
+    border-radius: 5px 5px 5px 5px;
+    padding: 2%;
+}
+.all span{
+    margin-left: 1em;
+}
+.banner{
+    background: rgb(56, 56, 56) url("../img/banner.jpg") no-repeat left top;
+    background-size: auto 100%;
+}
+.banner img{
+    position: absolute;
+    display: inline;
+    left: 13em;
+    max-width: 6%;
+    top: 46%;
+    vertical-align: middle;
+}
+.banner .img-cont{
+    position: relative;
+}
+.banner-right{
+    margin: 0 0 5% 0;
+}
+.banner-right h1{
+    border-bottom: 1px solid rgb(108, 108, 108);
+    color: rgb(210, 210, 210);
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0 0 10% 3%;
+    padding: 6% 0;
+}
+.banner-right button span{
+    color: white;
+}
+.banner-right label{
+    font-size: .8em;
+    font-weight: bold;
+    color:rgb(205, 205, 205);
+ }
+.banner-right ul{
+    list-style-type: none;
+}
+.banner-right ul li{
+    margin-bottom: 4%;
+}
+.banner-right ul li:first-child{
+    margin-bottom: 8%;
+}
+.banner-right span{
+    color: rgb(188, 182, 183);
+}
+.banner-right span, .banner-right p{
+    font-size: .8em;
+    color: rgb(188, 182, 183);
+}
+.banner-right .watch{
+    background:  rgb(223, 182, 53);
+    border: 1px solid rgb(223, 182, 53);
+    border-radius: 5px 5px 5px 5px;
+    color: white;
+    font-size:.9em;
+    padding: 12px;
+}
+.book{
+    background:  rgb(188, 123, 41);
+    border: 1px solid rgb(188, 123, 41);
+    border-radius: 5px 5px 5px 5px;
+    color: white;
+    font-size: .9em;
+    padding: 12px 30px 12px 12px;
+}
+/*Movies*/
+.movies{
+    background-color: rgb(223, 182, 54);
+    padding: 2% 0;
+}
+.movies img{
+    width: 100% ;
+    height: 14em;
+}
+.movies ul{
+    height: 5%;
+    list-style-type: none;
+    text-align: center;
+}
+.movies ul li{
+    display: inline-block;
+    margin-left: 1%;
+    width:15%;
+
+}
+.movies ul li:first-child{
+    margin:0;
+}
+/*Video*/
+iframe{
+    height: 380px;
+    width: 100%;
+}
+/*News*/
+h2{
+    color: rgb(212, 212, 212);
+    padding-bottom: 2%;
+}
+.left-p{
+    font-weight: 100;
+    color: rgb(188, 123, 41);
+}
+.left-p span{
+    font-weight: bold;
+}
+.news{
+    margin-bottom: 2%;
+    margin-top:5%;
+}
+.news a{
+    color: rgb(219, 195, 116);
+    font-weight: bold;
+    text-decoration: none;
+}
+.news .book{
+    font-size: 14px;
+    margin:1% 0 2% 0;
+    padding:3%;
+}
+.news img{
+    width: 100%;
+    height: 20em;
+}
+.news ul{
+    list-style-type: none;
+    margin: 5% 0;
+    text-align: center;
+}
+.news ul li{
+    display: inline-block;
+    margin-left: 1.5%;
+    width: 22%;
+}
+.news ul li:first-child{
+    margin: 0;
+}
+.now{
+    color: black;
+    font-size: 3em;
+}
+.lorem{
+    margin-top: 2%;
+}
+.lorem p{
+    color: rgb(220, 220, 220);
+}
+.lorem p:first-child{
+    color: black;
+    font-weight: bold;
+}
+.lorem p:last-child{
+    border-bottom: 1px solid rgb(212, 212, 212);
+    margin-bottom: 6%;
+    padding-bottom:5%;
+}
+/*Footer*/
+footer{
+    background-color: rgb(243, 243, 243);
+}
+footer h1{
+    color: rgb(199, 199, 199);
+    font-size: .9em;
+    font-weight: bold;
+    padding-top: 8%;
+}
+footer p{
+    color: rgb(211, 213, 212);
+    margin-bottom: 8%;
+}
+footer ul{
+    list-style-type: none;
+    padding-bottom: 5%;
+    line-height: .8em;
+}
+footer ul li a{
+    color: rgb(211, 213, 212);
+    font-size: .7em;
+    font-weight: bold;
+
+    text-decoration: none;
+}
